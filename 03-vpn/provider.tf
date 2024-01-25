@@ -8,7 +8,7 @@ terraform {
 
   backend "s3" {
     bucket = "devrobo"
-    key = "03-vpn"  # your wish
+    key = "03-vpnn"  # your wish
     region = "us-east-1"
     dynamodb_table = "devrobo-locking"
   } 
